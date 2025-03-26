@@ -3,7 +3,7 @@ import time
 
 def simulate_key_press():
     print("Enter the key or combination of keys you want to simulate (e.g., 'a', 'ctrl+c', 'shift+alt+f'): ")
-    user_input = input("Input: ").strip()
+    user_input = "FZL"#input("Input: ").strip()
 
     try:
         print(f"Simulating key press for: {user_input}")
